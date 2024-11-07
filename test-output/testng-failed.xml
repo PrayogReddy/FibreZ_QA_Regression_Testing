@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FibreZ TestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.ExtentTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="FibreZ Smoke Testing(failed)">
+    <classes>
+      <class name="TestCases.TC035_LcoPartnersPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="LcoListOfPartnersPageTest"/>
+        </methods>
+      </class> <!-- TestCases.TC035_LcoPartnersPage -->
+      <class name="TestCases.TC022_MsoPartnersPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="check_Arjun_LCO_Test"/>
+        </methods>
+      </class> <!-- TestCases.TC022_MsoPartnersPage -->
+      <class name="TestCases.TC015_MsoPricingPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="msoPricingPageTest"/>
+        </methods>
+      </class> <!-- TestCases.TC015_MsoPricingPage -->
+      <class name="TestCases.TC037_LcoServiceOrdersPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="LcoServiceOrdersPageTest"/>
+        </methods>
+      </class> <!-- TestCases.TC037_LcoServiceOrdersPage -->
+      <class name="TestCases.TC027_LcoLogin">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="LcoLoginTest"/>
+        </methods>
+      </class> <!-- TestCases.TC027_LcoLogin -->
+      <class name="TestCases.TC026_MsoLogout">
+        <methods>
+          <include name="closeApp"/>
+          <include name="msoLogoutTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC026_MsoLogout -->
+      <class name="TestCases.TC014_MsoRevenuePage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="msoRevenuePageTest"/>
+        </methods>
+      </class> <!-- TestCases.TC014_MsoRevenuePage -->
+      <class name="TestCases.TC018_MsoCreateService">
+        <methods>
+          <include name="closeApp"/>
+          <include name="msoServicePageTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC018_MsoCreateService -->
+      <class name="TestCases.TC031_LcoConnectionsPersonalDetails">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="LcoConnectionsPersonalDetailsTest"/>
+        </methods>
+      </class> <!-- TestCases.TC031_LcoConnectionsPersonalDetails -->
+      <class name="TestCases.TC019_MsoStandardPlans">
+        <methods>
+          <include name="closeApp"/>
+          <include name="msoStandardPlansPageTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC019_MsoStandardPlans -->
+      <class name="TestCases.TC043_CustomerDashboard">
+        <methods>
+          <include name="closeApp"/>
+          <include name="CustomerDashboardIDTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC043_CustomerDashboard -->
+      <class name="TestCases.TC042_CustomerLogin">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="customerLoginTest"/>
+        </methods>
+      </class> <!-- TestCases.TC042_CustomerLogin -->
+      <class name="TestCases.TC021_MsoCreateCustomPlan">
+        <methods>
+          <include name="closeApp"/>
+          <include name="msoCreateCustomPlanTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC021_MsoCreateCustomPlan -->
+      <class name="TestCases.TC041_LcoLogout">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="lcoLogoutTest"/>
+        </methods>
+      </class> <!-- TestCases.TC041_LcoLogout -->
+      <class name="TestCases.TC008_EditRoleRollBack">
+        <methods>
+          <include name="closeApp"/>
+          <include name="editRoleChangeRollBackTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC008_EditRoleRollBack -->
+      <class name="TestCases.TC023_MsoAddPartner">
+        <methods>
+          <include name="closeApp"/>
+          <include name="createNewMsoPartnerTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC023_MsoAddPartner -->
+      <class name="TestCases.TC045_CustomerChangePlan">
+        <methods>
+          <include name="closeApp"/>
+          <include name="CustomerChangePlanTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC045_CustomerChangePlan -->
+      <class name="TestCases.TC040_LcoRequestInventory">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="LcoRequestInventoryCreationTest"/>
+        </methods>
+      </class> <!-- TestCases.TC040_LcoRequestInventory -->
+      <class name="TestCases.TC038_LcoServiceOrdersUpdateStatus">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="LcoServiceOrdersUpdateStatusTest"/>
+        </methods>
+      </class> <!-- TestCases.TC038_LcoServiceOrdersUpdateStatus -->
+      <class name="TestCases.TC044_CustomerBills">
+        <methods>
+          <include name="closeApp"/>
+          <include name="CustomerBillsPageTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC044_CustomerBills -->
+      <class name="TestCases.TC029_LcoInstallationPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="LcoInstallationTest"/>
+        </methods>
+      </class> <!-- TestCases.TC029_LcoInstallationPage -->
+      <class name="TestCases.TC036_LcoAddPartner">
+        <methods>
+          <include name="closeApp"/>
+          <include name="createNewLcoPartnerTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC036_LcoAddPartner -->
+      <class name="TestCases.TC039_LcoOperatorInventoryPage">
+        <methods>
+          <include name="LcoOperatorInventoryPageTest"/>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC039_LcoOperatorInventoryPage -->
+      <class name="TestCases.TC033_LcoCustomPlans">
+        <methods>
+          <include name="closeApp"/>
+          <include name="lcoCustomPlansPageTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC033_LcoCustomPlans -->
+      <class name="TestCases.TC047_CustomerLogout">
+        <methods>
+          <include name="closeApp"/>
+          <include name="customerLogoutTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC047_CustomerLogout -->
+      <class name="TestCases.TC030_LcoConnectionsPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="LcoConnectionsListTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC030_LcoConnectionsPage -->
+      <class name="TestCases.TC016_MsoCreatePricing">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="msoPricingPageTest"/>
+        </methods>
+      </class> <!-- TestCases.TC016_MsoCreatePricing -->
+      <class name="TestCases.TC017_MsoServicesPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="msoServicesPageTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC017_MsoServicesPage -->
+      <class name="TestCases.TC046_CustomerSupport">
+        <methods>
+          <include name="closeApp"/>
+          <include name="CustomerSupportTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC046_CustomerSupport -->
+      <class name="TestCases.TC034_LcoBasicPlanNewCustomer">
+        <methods>
+          <include name="closeApp"/>
+          <include name="lcoBasicPlanNewCustomerCreationTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC034_LcoBasicPlanNewCustomer -->
+      <class name="TestCases.TC020_MsoCustomPlans">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="msoCustomPlansPageTest"/>
+        </methods>
+      </class> <!-- TestCases.TC020_MsoCustomPlans -->
+      <class name="TestCases.TC024_MsoInventoryDeviceId">
+        <methods>
+          <include name="closeApp"/>
+          <include name="msoInventoryDeviceIdTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC024_MsoInventoryDeviceId -->
+      <class name="TestCases.TC032_LcoStandardPlans">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="lcoStandardPlansPageTest"/>
+        </methods>
+      </class> <!-- TestCases.TC032_LcoStandardPlans -->
+      <class name="TestCases.TC028_LcoDashboard">
+        <methods>
+          <include name="closeApp"/>
+          <include name="lcoLoginDashboardTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC028_LcoDashboard -->
+      <class name="TestCases.TC007_EditRole">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="editRoleChangeTest"/>
+        </methods>
+      </class> <!-- TestCases.TC007_EditRole -->
+      <class name="TestCases.TC025_MsoInventoryOrderId">
+        <methods>
+          <include name="closeApp"/>
+          <include name="msoInventoryOrderIdTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- TestCases.TC025_MsoInventoryOrderId -->
+    </classes>
+  </test> <!-- FibreZ Smoke Testing(failed) -->
+</suite> <!-- Failed suite [FibreZ TestSuite] -->

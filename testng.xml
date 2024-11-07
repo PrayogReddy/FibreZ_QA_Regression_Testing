@@ -1,0 +1,61 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FibreZ TestSuite">
+	<listeners>
+        <listener class-name="Utilities.ExtentTestNGListener"/>
+    </listeners>
+    
+	<test name="FibreZ Smoke Testing">
+		<classes>
+			<class name="TestCases.TC001_LaunchApplication"></class>
+			<class name="TestCases.TC002_BookNowRequest"></class>
+			<class name="TestCases.TC003_AdminLogin"></class>
+			<class name="TestCases.TC004_AdminLoginDashboard"></class>
+			<class name="TestCases.TC005_AdminAddPartner"></class>
+			<class name="TestCases.TC006_AdminPartnersPage"></class>
+			<class name="TestCases.TC007_EditRole"></class>
+			<class name="TestCases.TC008_EditRoleRollBack"></class>
+			<class name="TestCases.TC009_RolesPageMsoRole"></class>
+			<class name="TestCases.TC010_CreateRole"></class>
+			<class name="TestCases.TC011_AdminLogout"></class>
+			<class name="TestCases.TC012_MsoLogin"></class>
+			<class name="TestCases.TC013_MsoDashboard"></class>
+			<class name="TestCases.TC014_MsoRevenuePage"></class>
+			<class name="TestCases.TC015_MsoPricingPage"></class>
+			<class name="TestCases.TC016_MsoCreatePricing"></class>
+			<class name="TestCases.TC017_MsoServicesPage"></class>
+			<class name="TestCases.TC018_MsoCreateService"></class>
+			<class name="TestCases.TC019_MsoStandardPlans"></class>
+			<class name="TestCases.TC020_MsoCustomPlans"></class>
+			<class name="TestCases.TC021_MsoCreateCustomPlan"></class>
+			<class name="TestCases.TC022_MsoPartnersPage"></class>
+			<class name="TestCases.TC023_MsoAddPartner"></class>
+			<class name="TestCases.TC024_MsoInventoryDeviceId"></class>
+			<class name="TestCases.TC025_MsoInventoryOrderId"></class>
+			<class name="TestCases.TC026_MsoLogout"></class>
+			<class name="TestCases.TC027_LcoLogin"></class>
+			<class name="TestCases.TC028_LcoDashboard"></class>
+			<class name="TestCases.TC029_LcoInstallationPage"></class>
+			<class name="TestCases.TC030_LcoConnectionsPage"></class>
+			<class name="TestCases.TC031_LcoConnectionsPersonalDetails"></class>
+			<class name="TestCases.TC032_LcoStandardPlans"></class>
+			<class name="TestCases.TC033_LcoCustomPlans"></class>
+			<class name="TestCases.TC034_LcoBasicPlanNewCustomer"></class>
+			<class name="TestCases.TC035_LcoPartnersPage"></class>
+			<class name="TestCases.TC036_LcoAddPartner"></class>
+			<class name="TestCases.TC037_LcoServiceOrdersPage"></class>
+			<class name="TestCases.TC038_LcoServiceOrdersUpdateStatus"></class>
+			<class name="TestCases.TC039_LcoOperatorInventoryPage"></class>
+			<class name="TestCases.TC040_LcoRequestInventory"></class>
+			<class name="TestCases.TC041_LcoLogout"></class>
+			<class name="TestCases.TC042_CustomerLogin"></class>
+			<class name="TestCases.TC043_CustomerDashboard"></class>
+			<class name="TestCases.TC044_CustomerBills"></class>
+			<class name="TestCases.TC045_CustomerChangePlan"></class>
+			<class name="TestCases.TC046_CustomerSupport"></class>
+			<class name="TestCases.TC047_CustomerLogout"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
