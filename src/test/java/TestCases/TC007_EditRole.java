@@ -40,7 +40,7 @@ public class TC007_EditRole extends AppUtils {
         // Navigate to Roles Page
         driver.findElement(By.xpath("//span[normalize-space()='Roles']")).click();
         Thread.sleep(3000);
-        ExtentTestNGListener.getExtentTest().log(Status.INFO, "Clicked on Roles link");
+        ExtentTestNGListener.getExtentTest().log(Status.INFO, "Navigated to Roles Page");
 
         boolean isRoleFound = false;
 

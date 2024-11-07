@@ -54,7 +54,7 @@ public class TC017_MsoServicesPage extends AppUtils {
         ExtentTestNGListener.getExtentTest().log(Status.PASS, "List of all Services is visible");
 
         // Define a list of expected values
-        List<String> expectedValues = List.of("On Net Local Calls", "Set-Top Box");
+        List<String> expectedValues = List.of("On Net Local Calls", "JioCinema");
         List<String> foundValues = new ArrayList<>();
 
         // Locate the table containing the List of all Services data

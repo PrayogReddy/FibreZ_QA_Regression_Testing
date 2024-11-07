@@ -36,12 +36,10 @@ public class TC001_LaunchApplication extends AppUtils {
 
         // Compare the current URL to the expected URL
         boolean isUrlCorrect = currentUrl.equals(url);
-        boolean isTextFound = currentUrl.equals("http://192.168.1.97/");
 
         // Print details of the comparison
         ExtentTestNGListener.getExtentTest().log(Status.INFO, "Expected URL: " + url);
         ExtentTestNGListener.getExtentTest().log(Status.INFO, "Is URL Correct: " + isUrlCorrect);
-        ExtentTestNGListener.getExtentTest().log(Status.INFO, "Is Text Found (Exact Match): " + isTextFound);
 
         // Assertion to check if the URL is correct
         Assert.assertTrue(isUrlCorrect, "URL was not visible after opening application");
