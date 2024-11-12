@@ -64,8 +64,8 @@ public class ExtentTestNGListener implements ITestListener {
         sparkReporter = new ExtentSparkReporter(reportFileName);        
         this.reportPath = reportFileName; // Save report path for use in onFinish
 
-        sparkReporter.config().setReportName(suiteName + " - Test Results");
-        sparkReporter.config().setDocumentTitle(suiteName + " - Report");
+        sparkReporter.config().setReportName(suiteName.replace(" ", "_") + "_QA_Report");
+        sparkReporter.config().setDocumentTitle(suiteName.replace(" ", "_") + "_QA_Report_" + timestamp);
         sparkReporter.config().setTheme(Theme.STANDARD); // Optionally, set to DARK for a dark theme
 
 //        // Set the path to the local CSS file
