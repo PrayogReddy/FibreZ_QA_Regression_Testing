@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.TC007_EditRole">
+      <class name="TestCases.TC003_AdminLogin">
         <methods>
           <include name="closeApp"/>
+          <include name="adminLoginTest"/>
           <include name="startApp"/>
-          <include name="editRoleChangeTest"/>
         </methods>
-      </class> <!-- TestCases.TC007_EditRole -->
+      </class> <!-- TestCases.TC003_AdminLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,17 +12,17 @@ public class AppUtils extends ExcelUtils {
     public WebDriver driver;
     //public static String url = "http://192.168.1.97/";
     //public static String url = "https://fibrez.otsipl.com/";
-    public static String url = "http://10.80.3.31/";
+    public static String url = "http://10.80.3.31/fibrez/";
     
     // Centralize Excel file paths and sheet names
-    public static final String testDataFilePath = "D:\\Prayog\\T_connect\\FibreZ_TestData.xlsx";
+    public static final String testDataFilePath = "D:\\Prayog\\T_connect\\Automation\\QA_Regression_TestData.xlsx";
     public static final String testDataSheetName1 = "Book Now Creation";  
     public static final String testDataSheetName2 = "Login Types";    
-    public static final String smokeTestingFilePath = "D:\\Prayog\\T_connect\\Smoke testing automation test cases.xlsx";
+    public static final String smokeTestingFilePath = "D:\\Prayog\\T_connect\\Automation\\QA_Regression_Testing_Automation_Testcases.xlsx";
     public static final String smokeTestingSheetName = "Smoke Test Cases";
 
     public void adminLogin() throws Throwable {
-        int rowNum = 1;
+        int rowNum = 2;
         String username = ExcelUtils.getCellData(testDataFilePath, testDataSheetName2, rowNum, 1);
         String password = ExcelUtils.getCellData(testDataFilePath, testDataSheetName2, rowNum, 2);
         driver.findElement(By.xpath("(//p[@class='hidden text-base text-[#666666] mr-[5px] md:inline'])[1]")).click();
@@ -52,7 +52,7 @@ public class AppUtils extends ExcelUtils {
     }
 
     public void lcoLogin() throws Throwable {
-        int rowNum = 5;
+        int rowNum = 4;
         String username = ExcelUtils.getCellData(testDataFilePath, testDataSheetName2, rowNum, 1);
         String password = ExcelUtils.getCellData(testDataFilePath, testDataSheetName2, rowNum, 2);
         driver.findElement(By.xpath("(//p[@class='hidden text-base text-[#666666] mr-[5px] md:inline'])[1]")).click();
@@ -67,7 +67,7 @@ public class AppUtils extends ExcelUtils {
     }
 
     public void customerLogin() throws Throwable {
-        int rowNum = 9;
+        int rowNum = 7;
         String username = ExcelUtils.getCellData(testDataFilePath, testDataSheetName2, rowNum, 1);
         String password = ExcelUtils.getCellData(testDataFilePath, testDataSheetName2, rowNum, 2);
         driver.findElement(By.xpath("(//p[@class='hidden text-base text-[#666666] mr-[5px] md:inline'])[1]")).click();

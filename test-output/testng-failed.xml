@@ -1,53 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FibreZ TestSuite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="Utilities.ExtentTestNGListener"/>
-  </listeners>
-  <test thread-count="5" name="FibreZ Smoke Testing(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.TC044_CustomerBills">
+      <class name="TestCases.TC003_AdminLogin">
         <methods>
           <include name="closeApp"/>
-          <include name="CustomerBillsPageTest"/>
+          <include name="adminLoginTest"/>
           <include name="startApp"/>
         </methods>
-      </class> <!-- TestCases.TC044_CustomerBills -->
-      <class name="TestCases.TC024_MsoInventoryDeviceId">
-        <methods>
-          <include name="closeApp"/>
-          <include name="msoInventoryDeviceIdTest"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- TestCases.TC024_MsoInventoryDeviceId -->
-      <class name="TestCases.TC007_EditRole">
-        <methods>
-          <include name="closeApp"/>
-          <include name="startApp"/>
-          <include name="editRoleChangeTest"/>
-        </methods>
-      </class> <!-- TestCases.TC007_EditRole -->
-      <class name="TestCases.TC025_MsoInventoryOrderId">
-        <methods>
-          <include name="closeApp"/>
-          <include name="msoInventoryOrderIdTest"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- TestCases.TC025_MsoInventoryOrderId -->
-      <class name="TestCases.TC014_MsoRevenuePage">
-        <methods>
-          <include name="closeApp"/>
-          <include name="startApp"/>
-          <include name="msoRevenuePageTest"/>
-        </methods>
-      </class> <!-- TestCases.TC014_MsoRevenuePage -->
-      <class name="TestCases.TC040_LcoRequestInventory">
-        <methods>
-          <include name="closeApp"/>
-          <include name="startApp"/>
-          <include name="LcoRequestInventoryCreationTest"/>
-        </methods>
-      </class> <!-- TestCases.TC040_LcoRequestInventory -->
+      </class> <!-- TestCases.TC003_AdminLogin -->
     </classes>
-  </test> <!-- FibreZ Smoke Testing(failed) -->
-</suite> <!-- Failed suite [FibreZ TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
